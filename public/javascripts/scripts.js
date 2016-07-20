@@ -147,7 +147,7 @@ function displayContent(){
   			} else {
   				for(var i = 0;i<data.allPosts.length;i++){
   					panelHtml += '<div class="panel panel-default">';
-  					panelHtml += '<div class="panel-heading clearfix">;'
+  					panelHtml += '<div class="panel-heading clearfix">';
 					if(localStorage.getItem('user') == data.allPosts[i].uId)
 					{
 						panelHtml += '<div class="btn-group pull-right"><a href="#" onclick="deleteThisItem(\''+data.allPosts[i].pId+'\')" class="btn btn-danger btn-sm">x</a></div>';
